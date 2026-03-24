@@ -1434,6 +1434,12 @@ line-height: 1.6;
         justify-items: center;
     }
 
+    .product-row img {
+        max-width: 220px;
+        width: 100%;
+        height: auto;
+    }
+
     .product-selection {
         grid-template-columns: repeat(2, 1fr);
     }
