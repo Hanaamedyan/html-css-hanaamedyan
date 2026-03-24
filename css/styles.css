@@ -1456,21 +1456,6 @@ line-height: 1.6;
         margin: 0 auto;
     }
 
-    .footer-section {
-        position: relative;
-        width: 100%;
-        padding: 20px 0;
-        padding-bottom: 0;
-    }
-
-    .footer-content {
-        gap: 20px;
-        min-height: auto;
-        padding: 15px 10px 20px;
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
     .footer-col h5 {
         font-size: 15px;
     }
@@ -1485,7 +1470,6 @@ line-height: 1.6;
     }
 
 }
-
 
 @media (max-width: 600px) {
 
