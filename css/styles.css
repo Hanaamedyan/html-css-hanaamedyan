@@ -494,24 +494,24 @@ line-height: 1.6;
 .footer-col p {
     margin: 15px 0;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: lighter; 
     color: #fff;
     font-family: oswald, sans-serif;
 }
 
 .footer-content .copyright {
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
     color: #fff;
     margin: 0;
     padding-top: 20px;
     font-family: oswald, sans-serif;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .banner-container-men { 
     position: relative; 
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .main-banner-men {
@@ -772,7 +772,7 @@ line-height: 1.6;
 .title {
     font-family: oswald, sans-serif;
     font-weight: medium;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     align-self: flex-start;
 }
@@ -831,6 +831,7 @@ line-height: 1.6;
 .size-selector {
     display: flex;
     gap: 14px;
+    border: none;
 }
 
 .size-selector label {
@@ -890,9 +891,9 @@ line-height: 1.6;
     font-weight: 500;
     color: #0a3641;
     text-align: left;
-    margin-left: 60px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-left: 65px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     display: block;
     width: 100%;
 }
@@ -1080,7 +1081,7 @@ line-height: 1.6;
     color: #fff;
 }
 
-.empty-box h3 {
+.empty-box h1 {
     font-family: inter, sans-serif;
     font-weight: 500;
     font-size: 28px;
@@ -1115,9 +1116,10 @@ line-height: 1.6;
     font-size: 35px;
     font-weight: 500;
     color: #0a3641;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 40px;
     display: flex;
-    margin-left: 60px;
+    margin-left: 65px;
 }
 
 .checkout-container {
@@ -1283,17 +1285,17 @@ line-height: 1.6;
     margin-top: 30px;
 }
 
-.order-confirmation h2 {
-    font-size: 40px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.order-confirmation h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-family: inter, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .confirmation-text {
-    font-size: 18px;
-    margin-top: 0;
+    font-size: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-family: inter, sans-serif;
     font-weight: lighter;
