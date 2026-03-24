@@ -1459,6 +1459,7 @@ line-height: 1.6;
     .footer-section {
         padding: 20px 0;
         margin-bottom: 0;
+        background-size: 120px;
     }
 
     .footer-content {
