@@ -1494,8 +1494,12 @@ line-height: 1.6;
         font-size: 50px;
         line-height: 1.2;
     }
-}
 
+    .btn-buttons {
+        gap: 400px
+    }
+
+}
 
 @media (max-width: 600px) {
 
