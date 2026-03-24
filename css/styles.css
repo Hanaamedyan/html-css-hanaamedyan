@@ -1414,6 +1414,15 @@ line-height: 1.6;
         object-fit: cover;
     }
 
+    .slideshow-container {
+        height: 400px;
+    }
+
+    .slide-wrapper img {
+        height: 400px;
+        object-fit: cover;
+    }
+
     .product-row {
         gap: 40px;
     }
