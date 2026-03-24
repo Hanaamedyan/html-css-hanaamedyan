@@ -1429,11 +1429,9 @@ line-height: 1.6;
 
     .product-row {
         gap: 40px;
-        flex-wrap: wrap;
-    }
-
-    .product-row img {
-        max-width: 220px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 
     .product-selection {
