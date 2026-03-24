@@ -1614,7 +1614,7 @@ line-height: 1.6;
    }
 
    .full-width {
-    max-width: 500px;
+    max-width: 540px;
    }
 
    .complete-purchase-btn {
@@ -1624,7 +1624,7 @@ line-height: 1.6;
 
    .checkout-right {
     padding: 18px;
-    height: auto;
+    height: 300px;
    }
 
    .checkout-summary-title {
