@@ -1418,7 +1418,7 @@ line-height: 1.6;
     .product-row {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
+        gap: 10px;
         justify-items: center;
     }
 
@@ -1450,7 +1450,7 @@ line-height: 1.6;
     }
 
     .footer-col {
-        max-width: 180px;
+        max-width: 120px;
     }
 
 }
