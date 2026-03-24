@@ -1423,8 +1423,17 @@ line-height: 1.6;
         object-fit: cover;
     }
 
+    .featured-products {
+        padding: 40px 0;
+    }
+
     .product-row {
         gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .product-row img {
+        max-width: 220px;
     }
 
     .product-selection {
