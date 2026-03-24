@@ -1392,15 +1392,11 @@ line-height: 1.6;
     background-color: #0a3641;
 }
 
-@media (max-widt:1024px) {
+@media (max-width: 1024px) {
 
     header {
         padding: 20px;
         gap: 20px;
-    }
-
-    body {
-        background: pink;
     }
 
     .banner-text h1 {
@@ -1465,15 +1461,15 @@ line-height: 1.6;
 
 }
 
-@media (max-widt:768px) {
+@media (max-width: 768px) {
 
 }
 
-@media (max-widt:600px) {
+@media (max-width: 600px) {
 
 }
 
-@media (max-widt:400px) {
+@media (max-width: 400px) {
 
 }
 
