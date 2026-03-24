@@ -1518,12 +1518,20 @@ line-height: 1.6;
     height: auto;
    }
 
+   .image-box {
+    margin-top: 40px;
+   }
+
    .product-information {
     padding-top: 40px;
    }
 
    .product-description {
     width: 350px;
+   }
+
+   .add-to-cart {
+    margin-bottom: 40px;
    }
 
 }
