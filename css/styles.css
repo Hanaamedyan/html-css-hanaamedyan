@@ -1457,12 +1457,10 @@ line-height: 1.6;
     }
 
     .footer-section {
+        position: relative;
+        width: 100%;
         padding: 20px 0;
         margin-bottom: 0;
-        background-size: contain;
-        background-position: center top;
-        background-repeat: no-repeat;
-        padding-top: 250px
     }
 
     .footer-content {
