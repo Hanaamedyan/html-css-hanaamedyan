@@ -1445,12 +1445,12 @@ line-height: 1.6;
     }
 
     .footer-col p {
-        font-size: 14px;
+        font-size: 18px;
         line-height: 1.4;
     }
 
     .footer-col {
-        max-width: 120px;
+        max-width: 100px;
     }
 
 }
