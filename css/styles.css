@@ -1508,47 +1508,23 @@ line-height: 1.6;
    }
 
    .product-card {
-    flex-direction: column;
-    width: 90%;
+    width: 900px;
     height: auto;
     gap: 20px;
-    padding: 20px;
-    align-items: center;
-   }
-
-   .image-box {
-    margin-left: 0;
-    width: 100%;
-    height: auto;
-    justify-content: center;
    }
 
    .image-product {
-    width: 100%;
-    max-width: 400px;
+    width: 350px;
     height: auto;
    }
 
    .product-information {
-    width: 100%;
-    padding-top: 0;
-    align-items: center;
-    text-align: center;
+    padding-top: 40px;
    }
 
    .product-description {
-    width: 100%;
-    max-width: 500px;
+    width: 350px;
    }
-
-   .size-selector {
-    justify-content: center;
-   }
-
-   .add-to-cart {
-    align-self: center;
-   }
-   
 
 }
 
