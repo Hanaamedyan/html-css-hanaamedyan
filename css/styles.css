@@ -1394,6 +1394,17 @@ line-height: 1.6;
 
 @media (max-width: 900px) {
 
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
     .icon-row {
         gap: 30px;
     }
@@ -1433,24 +1444,25 @@ line-height: 1.6;
     }
 
     .footer-section {
-        padding: 60px 0;
+        padding: 20px 0;
+        margin-bottom: 0;
     }
 
     .footer-content {
-        gap: 30px;
+        gap: 20px;
     }
 
     .footer-col h5 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .footer-col p {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.4;
     }
 
     .footer-col {
-        max-width: 100px;
+        max-width: 150px;
     }
 
 }
