@@ -1392,83 +1392,66 @@ line-height: 1.6;
     background-color: #0a3641;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
 
-    header {
-        padding: 20px;
-        gap: 20px;
+    .icon-row {
+        gap: 30px;
     }
 
-    .banner-text h1 {
-        font-size: 56px;
+    .icon-row i {
+        font-size: 28px;
     }
 
-    .banner-text p {
-        font-size: 18px;
-        max-width: 600px;
+    .icon-row p {
+        font-size: 16px;
+        max-width: 260px;
     }
 
-    .main-banner,
-    .main-banner-men {
-        height: 420px;
-        object-fit: cover;
-    }
-
-    .slideshow-container {
-        height: 400px;
-    }
-
-    .slide-wrapper img {
-        height: 400px;
-        object-fit: cover;
-    }
-
-    .featured-products {
-        padding: 40px 0;
+    .rain-icon,
+    .shield-icon,
+    .wind-icon {
+        width: 100%;
+        max-width: 260px;
+        text-align: center;
     }
 
     .product-row {
-        gap: 40px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
         justify-items: center;
-        justify-content: center;
-        width: 100%;
     }
 
     .product-row img {
         max-width: 200px;
         width: 100%;
         height: auto;
-        display: block;
     }
 
     .product-row img:last-child {
         grid-column: 1 / -1;
     }
 
-    .product-selection {
-        grid-template-columns: repeat(2, 1fr);
+    .footer-section {
+        padding: 40px 0;
     }
 
-    .product-card {
-        width: 95%;
-        height: auto;
-        flex-direction: column;
-        padding-bottom: 40px;
+    .footer-content {
+        gap: 30px;
     }
 
-    .image-product {
-        width: 80%;
+    .footer-col h5 {
+        font-size: 16px;
     }
 
-    .product-description {
-        width: 100%;
+    .footer-col p {
+        font-size: 14px;
+        line-height: 1.4;
     }
 
-}
-
-@media (max-width: 768px) {
+    .footer-col {
+        max-width: 180px;
+    }
 
 }
 
@@ -1476,8 +1459,5 @@ line-height: 1.6;
 
 }
 
-@media (max-width: 400px) {
-
-}
 
 
