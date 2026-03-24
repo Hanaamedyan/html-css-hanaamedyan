@@ -1,5 +1,13 @@
 html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -464,6 +472,7 @@ line-height: 1.6;
     background-repeat: no-repeat;
     padding-top: 250px;
     padding-bottom: 0;
+    margin-top: auto;
 }
 
 .footer-content {
@@ -1393,17 +1402,6 @@ line-height: 1.6;
 }
 
 @media (max-width: 900px) {
-
-    html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-    }
 
     .icon-row {
         gap: 30px;
