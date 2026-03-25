@@ -1673,6 +1673,39 @@ line-height: 1.6;
         font-size: 20px;
     }
 
+    .main-banner {
+        height: 380px;
+        object-position: center;
+    }
+
+    .banner-text {
+        top: 30%;
+        left: 20px;
+        transform: translateY(-50%);
+        max-width: 85%;
+    }
+
+    .banner-text h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+        max-width: 260px;
+        margin-top: 12px;
+    }
+
+    .banner-buttons {
+        top: 75%;
+        gap: 20px;
+    }
+
+    .btn {
+        width: 120px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
 
 }
 
