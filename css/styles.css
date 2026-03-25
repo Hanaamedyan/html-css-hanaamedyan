@@ -1748,7 +1748,8 @@ line-height: 1.6;
     .logo-text {
         margin-top: 30px;
         margin-left: 20px;
-        height: auto;
+        height: 100px;
+        width: 100px;
     }
 
     .company-fact {
