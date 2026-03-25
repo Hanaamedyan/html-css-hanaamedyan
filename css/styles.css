@@ -1972,7 +1972,10 @@ line-height: 1.6;
    .product-information {
     padding-top: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
    }
 
    .product-description {
