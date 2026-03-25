@@ -1679,7 +1679,7 @@ line-height: 1.6;
     }
 
     .banner-text {
-        top: 30%;
+        top: 50%;
         left: 20px;
         transform: translateY(-50%);
         max-width: 85%;
@@ -1692,7 +1692,7 @@ line-height: 1.6;
 
     .banner-text p {
         font-size: 14px;
-        max-width: 260px;
+        max-width: 300px;
         margin-top: 12px;
     }
 
