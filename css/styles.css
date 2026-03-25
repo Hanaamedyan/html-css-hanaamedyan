@@ -1910,6 +1910,27 @@ line-height: 1.6;
         object-fit: contain;
     }
 
+    .bestsellers h2 {
+        font-size: 28px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .bestsellers .carousel {
+        gap: 12px;
+        padding: 10px 0 15px 0;
+    }
+
+    .item {
+        flex: 0 0 240px;
+        scroll-snap-align: start;
+    }
+
+    .item img {
+        height: 320px;
+        object-fit: cover;
+        object-position: top;
+    }
 }
 
 @media (max-width: 390px) {
