@@ -2175,6 +2175,7 @@ line-height: 1.6;
    .summary-item,
    .summary-price,
    .summary-item-size {
+    width: 100%;
     font-size: 14px;
     text-align: left;
    }
