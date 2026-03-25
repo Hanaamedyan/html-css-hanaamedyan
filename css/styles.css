@@ -1940,7 +1940,11 @@ line-height: 1.6;
 
     .bestsellers .carousel {
         gap: 12px;
-        padding: 10px 0 15px 15px;
+        padding: 10px 0 15px 0;
+    }
+
+    .bestsellers .carousel .item:first-child {
+        margin-left: 16px;
     }
 
     .item {
@@ -1952,7 +1956,10 @@ line-height: 1.6;
         height: 400px;
         object-fit: cover;
         object-position: top center;
+        display: block;
     }
+
+
 }
 
 @media (max-width: 390px) {
