@@ -2175,6 +2175,7 @@ line-height: 1.6;
    .summary-item-size {
     font-size: 14px;
     text-align: left;
+    margin-left: 5px;
    }
 
    .checkout-summary-total {
