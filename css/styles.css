@@ -1884,7 +1884,7 @@ line-height: 1.6;
     }
 
     .banner-text-men {
-        top: 50%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
@@ -1905,7 +1905,7 @@ line-height: 1.6;
     }
 
     .product-selection img {
-        max-width: 220px;
+        max-width: 300px;
         width: 100%;
         object-fit: contain;
     }
