@@ -1722,6 +1722,28 @@ line-height: 1.6;
         object-position: center;
         flex: 0 0 100vw;
     }
+
+    .icon-row {
+        gap: 18px;
+    }
+
+    .icon-row i {
+        font-size: 22px;
+    }
+
+    .icon-row p {
+        font-size: 13px;
+        max-width: 220px;
+        line-height: 1.4;
+    }
+
+    .rain-icon,
+    .shield-icon,
+    .wind-icon {
+        width: 100%;
+        max-width: 22opx;
+        text-align: center;
+    }
 }
 
 @media (max-width: 390px) {
