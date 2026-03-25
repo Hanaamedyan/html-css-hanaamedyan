@@ -2150,6 +2150,8 @@ line-height: 1.6;
     height: auto;
     box-sizing: border-box;
     order: -1;
+    align-items: flex-start;
+    text-align: left;
    }
 
    .checkout-summary-title {
@@ -2175,7 +2177,6 @@ line-height: 1.6;
    .summary-item-size {
     font-size: 14px;
     text-align: left;
-    margin-left: 5px;
    }
 
    .checkout-summary-total {
