@@ -1482,6 +1482,16 @@ line-height: 1.6;
         max-width: 150px;
     }
 
+    .main-banner-men {
+        height: 420px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner-container-men {
+        overflow: hidden;
+    }
+
     .banner-text-men {
         top: 50%;
         left: 50%;
@@ -1863,6 +1873,42 @@ line-height: 1.6;
         text-align: center;
     }
 
+    .main-banner-men {
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner-container-men {
+        overflow: hidden;
+    }
+
+    .banner-text-men {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    .banner-text-men h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .product-selection {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 10px;
+        justify-items: center;
+    }
+
+    .product-selection img {
+        max-width: 220px;
+        width: 100%;
+        object-fit: contain;
+    }
 
 }
 
