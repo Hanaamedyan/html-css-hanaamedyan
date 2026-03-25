@@ -1755,7 +1755,7 @@ line-height: 1.6;
         margin-left: 20px;
         margin-top: 20px;
         font-size: 14px;
-        max-width: 300px;
+        max-width: 320px;
         line-height: 1.5;
     }
 
@@ -1773,7 +1773,7 @@ line-height: 1.6;
         left: 20px;
         top: 50%;
         gap: 10px;
-        max-width: 260px;
+        max-width: 300px;
     }
 
     .customer-club-text h2 {
@@ -1824,6 +1824,35 @@ line-height: 1.6;
     .icon-heading i {
         padding: 8px 10px;
         font-size: 20px;
+    }
+
+    .footer-section {
+    position: relative;
+    width: 100%;
+    background-image: url(../images/Logo-black.jpg);
+    background-size: 120px;
+    background-position: center 20px;
+    background-repeat: no-repeat;
+    padding-top: 60px; 
+    padding-bottom: 0;
+    margin-top: auto;
+    margin-bottom: 0;
+    }
+
+    .footer-col h5 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .footer-col p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .footer-col {
+        max-width: 120px;
+        margin: 0 auto;
+        text-align: center;
     }
 
 
