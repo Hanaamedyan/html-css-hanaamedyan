@@ -6,7 +6,6 @@
     <meta name="description" content="We have been crafting high-quality rain jackets in a sustainable way, and have been a trusted companion for men and women all over the world since 1980.">
     <title>Rainy Days | Products Detail page</title>
     <link href="css/styles.css" rel="stylesheet">
-    <link href="font-awesome/fontawesome.html" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
     crossorigin="anonymous" 
@@ -14,7 +13,8 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body class="header-line">
-    <header>
+<header>
+    <nav class="main-nav">
         <div class="left-icons">
             <a href="index.html" class="logo">
                 <img src="images/RainyDays_Logo-notext.png" alt="Rainy Days logo">
@@ -37,7 +37,8 @@
                 <span class="cart-number">1</span>
             </a>
         </div>
-    </header>
+    </nav>
+</header>
     <main>
         <section class="product-card">
 
@@ -47,60 +48,60 @@
                 class="image-product">
             </div>
 
-        <div class="product-information">
+            <div class="product-information">
 
-            <h3 class="category">MEN'S RAIN JACKET</h3>
-            <h1 class="title">Stormshell Rain Jacket - Men</h1>
-            <h3 class="price">$150.99</h3>
+                <h3 class="category">MEN'S RAIN JACKET</h3>
+                <h1 class="title">Stormshell Rain Jacket - Men</h1>
+                <h3 class="price">$150.99</h3>
 
-            <p class="product-description">A jacket made for you to stay dry while still looking stylish. 
+                <p class="product-description">A jacket made for you to stay dry while still looking stylish. 
                 This jacket has a waterproof material and a breathable interior that will keep you cool when the rain will not let up. 
                 This jacket also has water resistant pockets so your essentials stay safe and dry no matter the weather conditions.</p>
 
-            <h3 class="key-features-header">Key Features</h3>
-            <ul class="key-features">
-                <li><i class="fa-solid fa-check"></i>Waterproof protection</li>
-                <li><i class="fa-solid fa-check"></i>Breathable lining</li>
-                <li><i class="fa-solid fa-check"></i>Lightweight fabric</li>
-                <li><i class="fa-solid fa-check"></i>Modern design</li>
-                <li><i class="fa-solid fa-check"></i>Waterproof protection</li>
-                <li><i class="fa-solid fa-check"></i>Water-resistans pockets</li>
-            </ul>
+                <h3 class="key-features-header">Key Features</h3>
+                <ul class="key-features">
+                    <li><i class="fa-solid fa-check"></i>Waterproof protection</li>
+                    <li><i class="fa-solid fa-check"></i>Breathable lining</li>
+                    <li><i class="fa-solid fa-check"></i>Lightweight fabric</li>
+                    <li><i class="fa-solid fa-check"></i>Modern design</li>
+                    <li><i class="fa-solid fa-check"></i>Waterproof protection</li>
+                    <li><i class="fa-solid fa-check"></i>Water-resistans pockets</li>
+                </ul>
 
-            <fieldset class="size-selector">
-                <legend class="size-header">Select Size</legend>
+                <fieldset class="size-selector">
+                    <legend class="size-header">Select Size</legend>
 
-                <label>
-                    <input type="radio" name="size" value="S">
-                    <span>S</span>
-                </label>
+                    <label>
+                        <input type="radio" name="size" value="S">
+                        <span>S</span>
+                    </label>
 
-                <label>
-                    <input type="radio" name="size" value="M">
-                    <span>M</span>
-                 </label>
+                    <label>
+                        <input type="radio" name="size" value="M">
+                        <span>M</span>
+                    </label>
 
-                <label>
-                    <input type="radio" name="size" value="L">
-                    <span>L</span>
-                </label>
+                    <label>
+                        <input type="radio" name="size" value="L">
+                        <span>L</span>
+                    </label>
 
-                <label>
-                    <input type="radio" name="size" value="XL">
-                    <span>XL</span>
-                </label>
+                    <label>
+                        <input type="radio" name="size" value="XL">
+                        <span>XL</span>
+                    </label>
 
-                <label>
-                    <input type="radio" name="size" value="XXL">
-                    <span>XXL</span>
-                </label>
-            </fieldset>
+                    <label>
+                        <input type="radio" name="size" value="XXL">
+                        <span>XXL</span>
+                    </label>
+                </fieldset>
 
-            <button class="add-to-cart">
-                <i class="fa-solid fa-cart-shopping"></i>
-                Add to Cart
-            </button>
-        </div>
+                <button class="add-to-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Add to Cart
+                </button>
+            </div>
         </section>
 
         <section>
@@ -127,7 +128,7 @@
                     </label>
 
                     <div class="email-form">
-                        <input type="email" placeholder="Enter your email address" required>
+                        <input type="email" aria-label="Email address" placeholder="Enter your email address" required>
                         <label for="step2" class="submit-button">Submit</label>
                     </div>
 

@@ -6,7 +6,6 @@
     <meta name="description" content="We have been crafting high-quality rain jackets in a sustainable way, and have been a trusted companion for men and women all over the world since 1980.">
     <title>Rainy Days | Home</title>
     <link href="css/styles.css" rel="stylesheet">
-    <link href="font-awesome/fontawesome.html" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
     crossorigin="anonymous" 
@@ -14,7 +13,8 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body>
-    <header>
+<header>
+    <nav class="main-nav">
         <div class="left-icons">
             <a href="index.html" class="logo">
                 <img src="images/RainyDays_Logo-notext.png" alt="Rainy Days logo">
@@ -33,7 +33,8 @@
             <i class="fa-solid fa-magnifying-glass fa-lg search"></i> 
             <i class="fa-solid fa-cart-shopping fa-lg cart"></i> 
         </div>
-    </header>
+    </nav>
+</header>
     <main>
         <section class="banner-container">
             <img src="images/karsten-winegeart-rsPcY_vX1W0-unsplash-1.jpg" 
@@ -48,44 +49,47 @@
 
             <div class="banner-buttons"> 
                     <a href="products-page.html" class="btn">SHOP MEN</a> 
-                    <a href="#" class="btn">SHOP WOMEN</a> 
+                    <a href="products-page.html" class="btn">SHOP WOMEN</a> 
             </div>
         </section>
-        <div>
+
             <div class="slideshow-container">
                 <div class="slide-wrapper">
                     <img src="images/slideshow-img1.jpg" alt="Woman wearing red rain jacket standing on a boat with ocean background">
                     <img src="images/slideshow-img2.jpg" alt="Man wearing black rain jacket with hoodie outdoors">
                     <img src="images/slideshow-img3.jpg" alt="Person wearing red rain jacket with scenic mountain background">
                     <img src="images/slideshow-img4.jpg" alt="Woman wearing orange rain jacket leaning against a car window">
-                    <img src="images/slideshow-img5.jpg" alt="Man wearing black rain jacket while jumping in the rain with a foret background">
+                    <img src="images/slideshow-img5.jpg" alt="Man wearing black rain jacket while jumping in the rain with a forest background">
                     <img src="images/slideshow-img6.jpg" alt="Person wearing black rain jacket facing forward while looking at the forest">  
                     <img src="images/slideshow-img7.jpg" alt="Man wearing green rain jacket while getting water splashed on him">
                     <img src="images/slideshow-img8.jpg" alt="Zoomed in image of a persons back wearing a blue and orange rain jacket">
                 </div>
             </div>
-        </div>
-        <section class="Choose">
-            <h2>Why Choose Rainy Days?</h2>
-        <div class="icon-row">
-            <div class="rain-icon">
-                <i class="fa-solid fa-cloud-rain fa-2xl"></i>
-                <p>Our jackets are equipped with advanced technlogy that keeps you dry even during a heavy downpour.</p>
+
+        <section class="choose">
+                <h2>Why Choose Rainy Days?</h2>
+
+            <div class="icon-row">
+                <div class="rain-icon">
+                    <i class="fa-solid fa-cloud-rain fa-2xl"></i>
+                    <p>Our jackets are equipped with advanced technology that keeps you dry even during a heavy downpour.</p>
+                </div>
+
+                <div class="shield-icon">
+                    <i class="fa-solid fa-shield fa-2xl"></i>
+                    <p>The materials have been carefully chosen by experts to ensure that we were able to create jackets that would last for many years to come.</p>
+                </div>
+
+                <div class="wind-icon">
+                    <i class="fa-solid fa-wind fa-2xl"></i>
+                    <p>Every jacket is made with breathable fabrics to help regulate temperature and prevent you from overheating.</p>
+                </div>
             </div>
-            <div class="shield-icon">
-                <i class="fa-solid fa-shield fa-2xl"></i>
-                <p>The materials have been carefully chosen by experts to ensure that we were able to create jackets that would last for many years to come.</p>
-            </div>
-            <div class="wind-icon">
-                <i class="fa-solid fa-wind fa-2xl"></i>
-                <p>Every jacket is made with breathable fabrics to help regulate temperature and prevent you from overheating.</p>
-            </div>
-        </div>
         </section>
 
         <section class="featured-products">
-            <h3>Featured Products</h3>
-            <p>Discover our best sellers</p>
+                <h3>Featured Products</h3>
+                <p>Discover our best sellers</p>
             <div class="product-row">
                 <a href="product-detail-page-4.html"> <img src="images/stormshell-best.svg" alt="Stormshell a men's rain jacket in grey, a lightweight rain jacket priced at $150.99"></a>
                 <a href="product-detail-page-1.html"> <img src="images/aquatrail-best.svg" alt="Aquatrail a men's rain jacket in red, a waterproof rain jacket priced at $165.99"></a>
@@ -134,7 +138,7 @@
                 <i class="fa-solid fa-ticket-simple"></i>
                 Membership Benefits!
             </h3>
-            <p>As a part of our customer club you get personal offers and accsess to sales and campaigns before everyone else. On my pages you will also have an overview of all your orders and receipts.</p>
+            <p>As a part of our customer club you get personal offers and access to sales and campaigns before everyone else. On my pages you will also have an overview of all your orders and receipts.</p>
         </section>
 
         <section class="payment">

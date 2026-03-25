@@ -6,7 +6,6 @@
     <meta name="description" content="We have been crafting high-quality rain jackets in a sustainable way, and have been a trusted companion for men and women all over the world since 1980.">
     <title>Rainy Days | Checkout</title>
     <link href="css/styles.css" rel="stylesheet">
-    <link href="font-awesome/fontawesome.html" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
     crossorigin="anonymous" 
@@ -14,7 +13,8 @@
     <link rel="icon" href="images/favicon.ico">
 </head>
 <body class="header-line">
-    <header>
+<header>
+    <nav class="main-nav">
         <div class="left-icons">
             <a href="index.html" class="logo">
                 <img src="images/RainyDays_Logo-notext.png" alt="Rainy Days logo">
@@ -37,9 +37,9 @@
                 <span class="cart-number">1</span>
             </a>
         </div>
-    </header>
+    </nav>
+</header>
     <main>
-
         <h1 class="checkout-title">Checkout</h1>
 
         <section class="checkout-container">
@@ -50,44 +50,43 @@
                     <h3>Contact Information</h3>
 
                     <div class="input-row">
-                        <input type="text" aria-label="First Name" placeholder="First Name">
-                        <input type="text" aria-label="Last Name" placeholder="Last Name">
+                        <input type="text" aria-label="First Name" placeholder="First Name" required>
+                        <input type="text" aria-label="Last Name" placeholder="Last Name" required>
                     </div>
 
                     <div class="input-row">
-                        <input type="text" aria-label="Email" placeholder="Email">
-                        <input type="text" aria-label="Phone" placeholder="Phone">
+                        <input type="text" aria-label="Email" placeholder="Email" required>
+                        <input type="text" aria-label="Phone" placeholder="Phone" required>
                     </div>
                 </div>
 
                 <div class="checkout-section">
                     <h3>Shipping Address</h3>
 
-                    <input type="text" aria-label="Street Address" placeholder="Street Address" class="full-width">
+                    <input type="text" aria-label="Street Address" placeholder="Street Address" class="full-width" required>
 
                     <div class="input-row">
-                        <input type="text" aria-label="City" placeholder="City">
-                        <input type="text" aria-label="State" placeholder="State">
-                        <input type="text" aria-label="Zip Code" placeholder="Zip Code">
+                        <input type="text" aria-label="City" placeholder="City" required>
+                        <input type="text" aria-label="State" placeholder="State" required>
+                        <input type="text" aria-label="Zip Code" placeholder="Zip Code" required>
                     </div>
                 </div>
 
                 <div class="checkout-section">
                     <h3>Payment Information</h3>
 
-                    <input type="text" aria-label="Card Number" placeholder="Card Number" class="full-width">
-                    <input type="text" aria-label="Cardholder Name" placeholder="Cardholder Name" class="full-width">
+                    <input type="text" aria-label="Card Number" placeholder="Card Number" class="full-width" required>
+                    <input type="text" aria-label="Cardholder Name" placeholder="Cardholder Name" class="full-width" required>
 
                     <div class="input-row">
-                        <input type="text" aria-label="MM/YY" placeholder="MM/YY">
-                        <input type="text" aria-label="CVV" placeholder="CVV">
+                        <input type="text" aria-label="MM/YY" placeholder="MM/YY" required>
+                        <input type="text" aria-label="CVV" placeholder="CVV" required>
                     </div>
                 </div>
 
                 <a href="confirmation-page.html">
                 <button class="complete-purchase-btn">Complete Purchase</button>
                 </a>
-
             </div>
 
             <div class="checkout-right">
@@ -130,7 +129,6 @@
                      <span>$165.99</span>
                 </div>
             </div>
-
         </section>
     </main>
     </body>

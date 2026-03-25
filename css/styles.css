@@ -5,12 +5,7 @@ html, body {
     overflow-x: hidden;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-header {
+.main-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -202,10 +197,10 @@ h2 {
  .rain-icon p,
  .shield-icon p,
  .wind-icon p {
-font-family: inter, sans-serif;
-font-weight: 500;
-max-width: 250px;
-line-height: 1.6;
+    font-family: inter, sans-serif;
+    font-weight: 500;
+    max-width: 250px;
+    line-height: 1.6;
 }
 
 .featured-products {
@@ -560,14 +555,6 @@ line-height: 1.6;
    margin-left: 20px;
 }
 
-.emphasis-1,
-.emphasis-2,
-.emphasis-3,
-.emphasis-4 {
-    color: #1a8ba7;
-    font-weight: 500;
-}
-
 .btn-buttons {
     display: flex;
     justify-content: space-around;
@@ -721,7 +708,7 @@ line-height: 1.6;
     justify-content: center;
     align-items: flex-start;
     margin: 25px auto;
-    height: 900px;
+    height: 980px;
     width: 1390px;
     display: flex;
     gap: 40px;
@@ -871,7 +858,7 @@ line-height: 1.6;
 }
 
 .add-to-cart {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 12px 24px;
     background-color: #072D36;
     color: #fff;
