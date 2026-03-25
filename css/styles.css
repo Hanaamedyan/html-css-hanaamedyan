@@ -1517,7 +1517,7 @@ line-height: 1.6;
     font-size: 14px;
    }
 
-     .bestsellers h2 {
+    .bestsellers h2 {
         font-size: 30px;
         padding-left: 10px;
         margin-bottom: 5px;
@@ -1528,7 +1528,7 @@ line-height: 1.6;
     }
 
     .item img {
-        height: 480px;
+        height: 500px;
     }
 
    .product-card {
