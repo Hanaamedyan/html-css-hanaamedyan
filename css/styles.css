@@ -2065,6 +2065,40 @@ line-height: 1.6;
     display: block;
    }
 
+   .empty-cart {
+    width: 100%;
+    max-width: 360px;
+    margin: 80px auto 30px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+   }
+
+   .empty-box i {
+    font-size: 40px;
+    margin-bottom: 8px;
+   }
+
+   .empty-box h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+   }
+
+   .empty-box p {
+    font-size: 15px;
+    line-height: 1.4;
+    max-width: 280px;
+    margin: 0 auto;
+   }
+
+   .browse-btn {
+    margin-top: 18px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    display: inline-block;
+   }
+   
 
 
 
